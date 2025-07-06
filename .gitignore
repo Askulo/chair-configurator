@@ -21,4 +21,4 @@ yarn-error.log*
 .idea
 *.suo
 *.ntvs*
-*.njsproj
+*.njsproj   

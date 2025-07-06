@@ -18,7 +18,7 @@ function App() {
   return (
     <CustomizationProvider>
     <>
-    <Canvas camera={{ position: [0, 5, 5] }}  >
+    <Canvas camera={{ position: [0, 2, 5] }}  >
       <color attach="background" args={['#101010']} />
       <Experience/>
       {/* <Lights />

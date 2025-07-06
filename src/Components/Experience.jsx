@@ -17,7 +17,7 @@ const Experience = () => {
      {/* <Stage> */}
 
     
-    <mesh rotation={[-Math.PI /2, 0, 0]}>
+    <mesh  position={[0, -1, 0]}rotation={[-Math.PI /2, 0, 0]}>
         <planeGeometry args={[170, 170]}/>
         <MeshReflectorMaterial
            blur={[300, 100]}
@@ -35,7 +35,7 @@ const Experience = () => {
     </mesh>
 
     <Suspense  fallback={null}>
-      <Chair/>
+     <Chair position={[-1, -1, 0]} />
     </Suspense>
      {/* </Stage> */}
       </PresentationControls>

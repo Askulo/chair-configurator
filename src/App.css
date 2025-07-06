@@ -52,6 +52,7 @@ body {
   right: 24px;
   bottom: 25vh;
   width: 360px;
+  top: 10%;
   padding: 24px;
   display: flex;
   flex-direction: column;
