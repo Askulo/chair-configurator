@@ -86,7 +86,7 @@ const Configurator = () => {
             className={`item ${legs === 2 ? "item--active" : ""}`}
             onClick={() => setLegs(2)}
           >
-            <div className="item__label">Classic</div>
+            <div className="item__label">Classical</div>
           </div>
         </div>
       </div>
